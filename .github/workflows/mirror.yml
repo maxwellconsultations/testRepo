@@ -10,7 +10,7 @@ jobs:
       - name: Mirror repository
         run: |
           # Clone the main repo
-          git clone https://github.com/ibeandyy/LBP-Notifier.git
+          git clone https://maxwellconsultations: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@github.com/ibeandyy/LBP-Notifier.git
 
           # Configure git with your info
           git config --global user.email "maxwellconsultations@gmail.com"
