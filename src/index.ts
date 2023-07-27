@@ -47,3 +47,4 @@ event PoolCreated(
 //price_A = (ba ^ wa) / (bb ^ wb)
 //price_B = (bb ^ wb) / (ba ^ wa)
 //test
+//test2
