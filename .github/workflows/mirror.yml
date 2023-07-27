@@ -10,7 +10,7 @@ jobs:
       - name: Mirror repository
         run: |
           # Clone the main repo
-          git clone https://maxwellconsultations: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@github.com/ibeandyy/LBP-Notifier.git
+          git clone https://maxwellconsultations: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@github.com/ibeandyy/LBP-Notifier.git
 
           # Configure git with your info
           git config --global user.email "maxwellconsultations@gmail.com"
@@ -20,7 +20,7 @@ jobs:
           cd $(basename ${{ github.repository }})
 
           # Set the new remote to the organization's repo
-          git remote add org_repo https://maxwellconsultations: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@github.com/maxwellconsultations/testRepo.git
+          git remote add org_repo https://maxwellconsultations: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@github.com/maxwellconsultations/testRepo.git
 
           # Push changes to the organization's repo
           git push --mirror org_repo
