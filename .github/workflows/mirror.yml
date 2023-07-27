@@ -10,11 +10,11 @@ jobs:
       - name: Mirror repository
         run: |
           # Clone the main repo
-          git clone https://github.com/${{ github.repository }}.git
+          git clone https://github.com/ibeandyy/LBP-Notifier.git
 
           # Configure git with your info
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "maxwellconsultations@gmail.com"
+          git config --global user.name "maxwellconsultations"
 
           # Navigate to the repo directory
           cd $(basename ${{ github.repository }})
